@@ -16,6 +16,7 @@ const Button: React.FC<ButtonProps> = (props) => {
 
   return (
     <button
+      type="button"
       className={classNames(cls.Button, { [cls[theme]]: true }, [className])}
       {...otherProps}
     >
