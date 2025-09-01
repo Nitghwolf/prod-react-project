@@ -19,7 +19,8 @@
     padding: 20px;
 }
 
-h1, h2 {
+h1,
+h2 {
     text-wrap: balance;
 }
 
@@ -29,6 +30,7 @@ h1, h2 {
 
 .clickable-area {
     --_clickable-area-expandable-ratio: var(--clickable-area-expandable-ratio, 6px);
+    
     position: var(--clickable-area-position, relative);
     isolation: isolate;
 }
