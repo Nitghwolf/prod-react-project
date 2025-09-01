@@ -42,7 +42,7 @@ module.exports = {
         'import/no-extraneous-dependencies': 'off',
         'no-underscore-dangle': 'off',
         'i18next/no-literal-string': [
-            'ignore',
+            0,
             {
                 markupOnly: true,
                 ignoreAttribute: ['data-testid', 'to'],
