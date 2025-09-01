@@ -28,7 +28,7 @@ export const Sidebar = ({ className }: SidebarProps) => {
                 toggle
             </Button>
             <div className={cls.switchers}>
-                <ThemeSwitcher />
+                <ThemeSwitcher className={classNames(cls.switcherButton, {}, ['clickable-area'])} />
                 <LangSwitcher className={cls.lang} />
             </div>
         </div>

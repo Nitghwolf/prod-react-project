@@ -16,6 +16,10 @@
     display: flex;
     justify-content: center;
     width: 100%;
+
+    .switcherButton {
+        --clickable-area-expandable-ratio: 5px;
+    }
 }
 
 .lang {

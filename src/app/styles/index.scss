@@ -18,3 +18,24 @@
     flex-grow: 1;
     padding: 20px;
 }
+
+h1, h2 {
+    text-wrap: balance;
+}
+
+::selection {
+    background-color: var(--inverted-primary-color);
+}
+
+.clickable-area {
+    --_clickable-area-expandable-ratio: var(--clickable-area-expandable-ratio, 6px);
+    position: var(--clickable-area-position, relative);
+    isolation: isolate;
+}
+
+.clickable-area::before {
+    content: "";
+    position: absolute;
+    inset: calc(-1 * var(--_clickable-area-expandable-ratio));
+    z-index: -1;
+}
