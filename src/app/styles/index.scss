@@ -29,8 +29,9 @@ h2 {
 }
 
 .clickable-area {
+    /* stylelint-disable */
     --_clickable-area-expandable-ratio: var(--clickable-area-expandable-ratio, 6px);
-    
+
     position: var(--clickable-area-position, relative);
     isolation: isolate;
 }
